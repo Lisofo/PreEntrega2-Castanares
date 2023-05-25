@@ -1,0 +1,132 @@
+/* css general y main */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-image: url(../img/fondo.jpg);
+
+}
+#logo{
+    width: 231px;
+    height: 186px;
+    vertical-align: middle;
+    margin-left: 75px;
+}
+
+header h1{
+    color: rgb(58, 21, 0);
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 50px;
+    text-align: center;
+}
+header h2{
+    color: rgb(58, 21, 0);
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+header nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: rgba(248, 200, 129, 0.514);
+    color: black;
+}
+
+
+header nav ul li{
+    display: inline;
+    margin: 20px;
+    font-size: 22px;
+
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+#texto1{
+    color: white;
+}
+
+
+#front{
+    width: 400px;
+    height: 300px;
+    margin-left: 1083px;
+    opacity: 0.9;
+}
+
+footer{
+    background-color: rgba(248, 200, 129, 0.514);
+}
+
+footer h3{
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.main{
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+/* css libreria */
+
+
+
+
+/* css Menu */
+.contenedor{
+    background-color: rgba(248, 200, 129, 0.514);
+    height: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+
+.comidas-bebidas{
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+}
+
+#te{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+/* css sobre nosotros */
+
+#hermanos{
+    width: 450px;
+    height: 270px;
+    
+}
+
+.hermanos-foto{
+    text-align: center;
+}
+
+/* css contacto */
+section{
+    background-color: rgb(90, 51, 18);
+}
+section h2, form{
+    text-align: center;
+}
