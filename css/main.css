@@ -62,8 +62,8 @@ header nav ul li a{
 #front{
     width: 400px;
     height: 300px;
-    margin-left: 1083px;
     opacity: 0.9;
+    object-position: center;
 }
 
 footer{
@@ -82,42 +82,60 @@ footer h3{
 }
 
 
+
+
+
 /* css libreria */
 
 .contenedor{
+    height: 70vh;
     background-color: rgba(248, 200, 129, 0.514);
-    height: 800px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 33%);
+    row-gap: 1rem;
+    margin: 1rem;
+    padding: 2rem;
+
     
+}
+
+.contenedor .libro2, .libro4{
+    display: none;
+}
+
+.contenedor div img{
+    width: 80%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .libro1{
     width: 200px;
     height: 200px;
-    margin: 15px;
+
 }
 .libro2{
     width: 200px;
     height: 200px;
-    margin: 15px;
+
 }
 .libro3{
     width: 200px;
     height: 200px;
-    margin: 15px;
+    
 }
 .libro4{
     width: 200px;
     height: 200px;
-    margin: 15px;
+
 }
 .libro5{
     width: 200px;
     height: 200px;
-    margin: 15px;
+
 }
+
 
 
 /* css Menu */
@@ -130,15 +148,39 @@ footer h3{
     
 }
 
-.comidas-bebidas{
-    width: 150px;
-    height: 150px;
-    margin: 15px;
+.contenedor .tazaCafe, .tazaTe{
+    display: none;
+}
+
+.jugoNaranja{
+    width: 300px;
+    height: 300px;
+    
+}
+.scones{
+    width: 300px;
+    height: 300px;
+    
+}
+.tostados{
+    width: 300px;
+    height: 300px;
+    
+}
+.tazaTe{
+    width: 300px;
+    height: 300px;
+    
+}
+.tazaCafe{
+    width: 300px;
+    height: 300px;
+    
 }
 
 #te{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -163,4 +205,15 @@ section{
 }
 section h2, form{
     text-align: center;
+}
+
+/* mq para pc */
+
+@media screen and (min-width:1024px) {
+    .contenedor .libro2, .libro4{
+        display: block;
+    }
+
+
+
 }
