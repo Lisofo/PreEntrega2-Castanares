@@ -84,7 +84,40 @@ footer h3{
 
 /* css libreria */
 
+.contenedor{
+    background-color: rgba(248, 200, 129, 0.514);
+    height: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
 
+.libro1{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+.libro2{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+.libro3{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+.libro4{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+.libro5{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
 
 
 /* css Menu */
